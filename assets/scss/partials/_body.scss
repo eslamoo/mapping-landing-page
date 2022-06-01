@@ -1,0 +1,10 @@
+html, body {
+    font-family: DINN-Regular, 'DINN-Regular', Arial, SansSerif;
+    -webkit-font-smoothing: antialiased;
+    color: $color-text;
+    line-height: $line-height;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: #E5E5E5;
+    direction: rtl;
+  }

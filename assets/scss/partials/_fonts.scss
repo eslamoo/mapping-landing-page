@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'DINN-Regular';
+    src: url('../fonts/dinn/DINNextLTArabic-Regular.eot');
+    src: url('../fonts/dinn/DINNextLTArabic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/dinn/DINNextLTArabic-Regular.woff2') format('woff2'),
+        url('../fonts/dinn/DINNextLTArabic-Regular.woff') format('woff'),
+        url('../fonts/dinn/DINNextLTArabic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINN-Medium';
+    src: url('../fonts/dinn/DINNextLTW23-Medium.eot');
+    src: url('../fonts/dinn/DINNextLTW23-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/dinn/DINNextLTW23-Medium.woff2') format('woff2'),
+        url('../fonts/dinn/DINNextLTW23-Medium.woff') format('woff'),
+        url('../fonts/dinn/DINNextLTW23-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINN-Bold';
+    src: url('../fonts/dinn/DINNextLTArabic-Bold.eot');
+    src: url('../fonts/dinn/DINNextLTArabic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/dinn/DINNextLTArabic-Bold.woff2') format('woff2'),
+    url('../fonts/dinn/DINNextLTArabic-Bold.woff') format('woff'),
+    url('../fonts/dinn/DINNextLTArabic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.font-14{
+    font-size: 14px;
+}

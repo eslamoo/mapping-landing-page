@@ -1,0 +1,128 @@
+html, body {
+  font-family: DINN-Regular, 'DINN-Regular', Arial, SansSerif;
+  -webkit-font-smoothing: antialiased;
+  color: #444444;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: #E5E5E5;
+  direction: rtl;
+}
+
+@font-face {
+  font-family: 'DINN-Regular';
+  src: url("../fonts/dinn/DINNextLTArabic-Regular.eot");
+  src: url("../fonts/dinn/DINNextLTArabic-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/dinn/DINNextLTArabic-Regular.woff2") format("woff2"), url("../fonts/dinn/DINNextLTArabic-Regular.woff") format("woff"), url("../fonts/dinn/DINNextLTArabic-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINN-Medium';
+  src: url("../fonts/dinn/DINNextLTW23-Medium.eot");
+  src: url("../fonts/dinn/DINNextLTW23-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/dinn/DINNextLTW23-Medium.woff2") format("woff2"), url("../fonts/dinn/DINNextLTW23-Medium.woff") format("woff"), url("../fonts/dinn/DINNextLTW23-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINN-Bold';
+  src: url("../fonts/dinn/DINNextLTArabic-Bold.eot");
+  src: url("../fonts/dinn/DINNextLTArabic-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/dinn/DINNextLTArabic-Bold.woff2") format("woff2"), url("../fonts/dinn/DINNextLTArabic-Bold.woff") format("woff"), url("../fonts/dinn/DINNextLTArabic-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.contentCard {
+  background-color: #fff;
+  width: 70%;
+  margin: 150px auto;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .contentCard {
+    width: 95%;
+    margin: 3% auto;
+  }
+}
+
+.contentCard__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contentCard__header__icon {
+  border: 1px solid #EEEEEE;
+  border-radius: 3px;
+  width: 80px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 80px;
+          flex: 0 0 80px;
+}
+
+.contentCard__header__separator {
+  margin-inline: 15px;
+}
+
+.contentCard__body__title {
+  color: #2b2d34;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: DINN-Medium, 'DINN-Medium', Arial, SansSerif;
+}
+
+.contentCard__body__title--small {
+  font-family: DINN-Medium, 'DINN-Medium', Arial, SansSerif;
+  color: #2b2d34;
+  font-size: 16px;
+}
+
+.contentCard__footer .primary-btn {
+  background-color: #5cd5c4;
+  border: 0;
+  width: 100%;
+  border-radius: 3px;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+}
+
+.contentCard__footer .primary-btn:active, .contentCard__footer .primary-btn:focus, .contentCard__footer .primary-btn:hover {
+  text-decoration: none;
+}
+
+.contentCard__footer .primary-link {
+  color: #5cd5c4;
+  text-align: center;
+  display: block;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=main.css.map */

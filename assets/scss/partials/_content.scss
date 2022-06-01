@@ -1,0 +1,70 @@
+.contentCard {
+    background-color: #fff;
+    width: 70%;
+    margin: 150px auto;
+    box-shadow: $box-shadow;
+    padding: 50px;
+    border-radius: 4px;
+    @media (max-width: 768px) {
+        width: 95%;
+        margin: 3% auto;
+    }
+    &__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__icon {
+            border: 1px solid #EEEEEE;
+            border-radius: 3px;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 0 0 80px;
+        }
+
+        &__separator {
+            margin-inline: 15px;
+        }
+    }
+
+    &__body {
+        &__title {
+            color: $color-title;
+            font-size: $title-medium + px;
+            text-align: center;
+            margin-top: 50px;
+            font-family: DINN-Medium, 'DINN-Medium', Arial, SansSerif;
+
+            &--small {
+                font-family: DINN-Medium, 'DINN-Medium', Arial, SansSerif;
+                color: $color-title;
+                font-size: 16px;
+            }
+        }
+    }
+    &__footer{
+        .primary-btn{
+            background-color: $color-primary;
+            border: 0;
+            width: 100%;
+            border-radius: 3px;
+            padding: 10px;
+            color: #fff;
+            cursor: pointer;
+            display: block;
+            text-align: center;
+            &:active, &:focus, &:hover{
+                text-decoration: none;
+            }
+        }
+        .primary-link{
+            color: $color-primary;
+            text-align: center;
+            display: block;
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'DINN-Regular';
+    src: url('DINNextLTArabic-Regular.eot');
+    src: url('DINNextLTArabic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DINNextLTArabic-Regular.woff2') format('woff2'),
+        url('DINNextLTArabic-Regular.woff') format('woff'),
+        url('DINNextLTArabic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINN-Medium';
+    src: url('DINNextLTW23-Medium.eot');
+    src: url('DINNextLTW23-Medium.eot?#iefix') format('embedded-opentype'),
+        url('DINNextLTW23-Medium.woff2') format('woff2'),
+        url('DINNextLTW23-Medium.woff') format('woff'),
+        url('DINNextLTW23-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINN-Bold';
+    src: url('DINNextLTArabic-Bold.eot');
+    src: url('DINNextLTArabic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('DINNextLTArabic-Bold.woff2') format('woff2'),
+    url('DINNextLTArabic-Bold.woff') format('woff'),
+    url('DINNextLTArabic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

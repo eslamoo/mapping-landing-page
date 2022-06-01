@@ -1,0 +1,10 @@
+$direction: 'rtl';
+$fonts: (
+        regular: DINN-Regular,
+        medium: DINN-Medium,
+        bold: DINN-Bold,
+);
+@import './partials/vars';
+@import './partials/body';
+@import './partials/fonts';
+@import './partials/content';
