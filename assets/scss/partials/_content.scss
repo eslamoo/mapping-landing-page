@@ -1,6 +1,7 @@
 .contentCard {
     background-color: #fff;
     width: 70%;
+    max-width: 900px;
     margin: 100px auto;
     box-shadow: $box-shadow;
     padding: 50px;
@@ -12,8 +13,10 @@
         margin: 95px auto;       
     }
     @media (max-width: 768px) {
-        width: 95%;
-        margin: 3% auto;
+        width: 100%;
+        margin: 0;
+        padding: 30px;
+        min-height: 100vh;
     }
     &__header {
         display: flex;
