@@ -40,11 +40,23 @@ html, body {
 .contentCard {
   background-color: #fff;
   width: 70%;
-  margin: 150px auto;
+  margin: 100px auto;
   -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
   padding: 50px;
   border-radius: 4px;
+}
+
+@media (min-width: 1920px) {
+  .contentCard {
+    margin: 150px auto;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1450px) {
+  .contentCard {
+    margin: 95px auto;
+  }
 }
 
 @media (max-width: 768px) {
